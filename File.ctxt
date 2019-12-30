@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=File
+comment1.params=
+comment1.target=File()
+comment1.text=Constructor
+comment2.params=memory
+comment2.target=void\ read(java.util.Map)
+comment2.text=\ \n\ Takes\ in\ file\ inputs\ on\ what\ to\ calculate\ and\ whether\ to\ continue\n\ @param\ memory\ The\ memory\ of\ all\ the\ stored\ Polynomials\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Static\ main\ to\ test\ this\ class
+numComments=4

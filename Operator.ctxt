@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Operator
+comment0.text=\n\ An\ abstract\ subclass\ of\ Token\ that\ refers\ to\ operators\n
+comment1.params=p1\ p2
+comment1.target=Polynomial\ operate(Polynomial,\ Polynomial)
+comment1.text=The\ operation\ method\ of\ this\ class
+comment2.params=
+comment2.target=int\ getPriority()
+comment2.text=The\ priority\ of\ this\ class
+numComments=3

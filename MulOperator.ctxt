@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MulOperator
+comment0.text=\n\ A\ subclass\ of\ Operator\ that\ refers\ to\ multiplying\ polynomials\n
+comment1.params=p1\ p2
+comment1.target=Polynomial\ operate(Polynomial,\ Polynomial)
+comment1.text=The\ operation\ method\ of\ multiplying\ 2\ polynomials
+comment2.params=
+comment2.target=int\ getPriority()
+comment2.text=The\ priority\ of\ multiplying
+numComments=3

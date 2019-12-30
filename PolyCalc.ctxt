@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PolyCalc
+comment0.text=\n\ Welcome\ to\ PolyCalc.\ This\ calculator\ allows\ you\ to\ input\ arithmetic\ expressions\ or\ equations\ and\ it\ will\ do\ the\n\ math\ for\ you,\ either\ through\ direct\ input\ or\ text\ file\ imports.\ Your\ variables\ will\ be\ stored\ until\ you\ quit\ \n\ the\ program,\ so\ you\ could\ use\ and\ update\ the\ variables\ anywhere.\n\n\ @author\ Jo\ Hsuan\ 'Brian'\ Lee\n\ @version\ 12/7\n
+comment1.params=
+comment1.target=PolyCalc()
+comment1.text=Constructor
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Asks\ user\ to\ select\ an\ input\ method,\ either\ 'Interactive',\ which\ is\ through\ direct\ input,\n\ or\ 'File',\ which\ is\ through\ text\ files.\ The\ program\ exits\ if\ the\ user\ inputs\ 'Quit',\ and\ all\ memory\n\ associated\ with\ the\ variables\ will\ be\ deleted.\n
+numComments=3

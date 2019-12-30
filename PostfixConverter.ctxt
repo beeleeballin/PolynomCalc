@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PostfixConverter
+comment0.text=\n\ A\ class\ that\ reorganizes\ a\ list\ of\ Tokens\ and\ allows\ it\ to\ be\ evaluated\ more\ efficiently\ by\ an\ evaluator\ class.\n\ It\ takes\ no\ parameters,\ but\ convert()\ takes\ in\ a\ Token\ list\ and\ organizes\ it\ into\ a\ new\ one.\n
+comment1.params=
+comment1.target=PostfixConverter()
+comment1.text=Constuctor
+comment2.params=infix
+comment2.target=java.util.Deque\ convert(java.util.Deque)
+comment2.text=\n\ Organizes\ the\ input\ expression\ with\ an\ infix\ order\ into\ a\ postfix\ expression\n\ @param\ infix\ A\ Token\ list\ in\ infix\ order\n\ @return\ A\ Token\ list\ in\ postfix\ order\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Static\ main\ to\ test\ this\ class
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Eval
+comment0.text=\n\ A\ class\ that\ evaluates\ a\ list\ of\ Tokens.\ It\ takes\ no\ parameters,\ but\ sol()\ takes\ in\ \n\ a\ Token\ list\ and\ returns\ a\ Polynomial.\n
+comment1.params=
+comment1.target=Eval()
+comment1.text=Constuctor
+comment2.params=postfix
+comment2.target=Polynomial\ sol(java.util.Deque)
+comment2.text=\n\ Evaluates\ the\ expression\ in\ postfix\ order\n\ @param\ postfix\ A\ Token\ list\ in\ postfix\ order\n\ @return\ A\ result\ Polynomial\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Static\ main\ to\ test\ this\ class
+numComments=4

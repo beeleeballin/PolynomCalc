@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HelloGUI
+comment1.params=
+comment1.target=void\ main()
+comment2.params=a
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=a
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4

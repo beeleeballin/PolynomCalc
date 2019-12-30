@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Execute
+comment0.text=\n\ A\ class\ takes\ in\ an\ arithmetic\ expression\ and\ a\ memory,\ prints\ Polynomials\ and\ stores\ them\ in\ variables\n
+comment1.params=i\ memory
+comment1.target=Execute(java.lang.String,\ java.util.Map)
+comment1.text=\ \n\ Constuctor\n\ @param\ i\ The\ arithmetic\ expression\ string\ seek\ to\ evaluate\n\ @param\ memory\ The\ memory\ of\ all\ the\ stored\ Polynomials\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Parsess,\ organizes\ and\ evaluates\ the\ input\ expression\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Static\ main\ to\ test\ this\ class
+numComments=4
