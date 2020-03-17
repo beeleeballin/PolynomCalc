@@ -239,59 +239,59 @@ public class Polynomial extends Token
         else return polyString;
     }
     
-    /** Static main to test this class  */
-    public static void main(String[] args){
+    // /** Static main to test this class  */
+    // public static void main(String[] args){
         
-        System.out.println("the first polynomial, a, is: ");
-        //hard-coded polynomials
-        Polynomial a = new Polynomial();
-        Monomial a1 = new Monomial(-9, 5);
-        Monomial a2 = new Monomial(3, 2);
-        Monomial a3 = new Monomial(-1, 1);
-        Monomial[] ma = {a1, a2, a3};
-        for(int i = 0; i < ma.length; i++){
-            a.poly.add(ma[i]);
-        }
-        //to.String() automatically applies
-        System.out.println(a);
-        System.out.println("-");
+        // System.out.println("the first polynomial, a, is: ");
+        // //hard-coded polynomials
+        // Polynomial a = new Polynomial();
+        // Monomial a1 = new Monomial(-9, 5);
+        // Monomial a2 = new Monomial(3, 2);
+        // Monomial a3 = new Monomial(-1, 1);
+        // Monomial[] ma = {a1, a2, a3};
+        // for(int i = 0; i < ma.length; i++){
+            // a.poly.add(ma[i]);
+        // }
+        // //to.String() automatically applies
+        // System.out.println(a);
+        // System.out.println("-");
         
-        System.out.println("the second polynomial, b, is: ");
-        Polynomial b = new Polynomial();
-        Monomial b1 = new Monomial(3, 1);
-        Monomial b2 = new Monomial(-2, 5);
-        Monomial b3 = new Monomial(5, 3);
-        Monomial[] mb = {b1, b2, b3};
-        for(int i = 0; i < mb.length; i++){
-            b.poly.add(mb[i]);
-        }
-        System.out.println(b);
-        System.out.println("--");
+        // System.out.println("the second polynomial, b, is: ");
+        // Polynomial b = new Polynomial();
+        // Monomial b1 = new Monomial(3, 1);
+        // Monomial b2 = new Monomial(-2, 5);
+        // Monomial b3 = new Monomial(5, 3);
+        // Monomial[] mb = {b1, b2, b3};
+        // for(int i = 0; i < mb.length; i++){
+            // b.poly.add(mb[i]);
+        // }
+        // System.out.println(b);
+        // System.out.println("--");
         
-        //perform polynomial addition
-        Polynomial c = a.addition(b);
-        if(c != null) System.out.println("the sum of a & b is: "+c);
-        else System.out.println("no results");
-        System.out.println("---");
+        // //perform polynomial addition
+        // Polynomial c = a.addition(b);
+        // if(c != null) System.out.println("the sum of a & b is: "+c);
+        // else System.out.println("no results");
+        // System.out.println("---");
 
-        //perform polynomial subtraction
-        Polynomial d = c.subtraction(a);
-        if(d != null) System.out.println("the difference of (a+b) & a is: "+d);
-        else System.out.println("no results");
-        System.out.println("which should equal to b: "+b);
-        System.out.println("----");
+        // //perform polynomial subtraction
+        // Polynomial d = c.subtraction(a);
+        // if(d != null) System.out.println("the difference of (a+b) & a is: "+d);
+        // else System.out.println("no results");
+        // System.out.println("which should equal to b: "+b);
+        // System.out.println("----");
         
-        //perform polynomial multiplication
-        Polynomial e = a.multiplication(b);
-        if(e != null) System.out.println("the product of a & b is: "+e);
-        else System.out.println("no results");
-        System.out.println("-----");
+        // //perform polynomial multiplication
+        // Polynomial e = a.multiplication(b);
+        // if(e != null) System.out.println("the product of a & b is: "+e);
+        // else System.out.println("no results");
+        // System.out.println("-----");
         
-        //perform polynomial division
-        Polynomial f = e.division(a);
-        if(f != null) System.out.println("the quotient of a*b & a is: "+f);
-        else System.out.println("no results");
-        System.out.println("which should equal to b: "+b);
-        System.out.println("------");
-    }
+        // //perform polynomial division
+        // Polynomial f = e.division(a);
+        // if(f != null) System.out.println("the quotient of a*b & a is: "+f);
+        // else System.out.println("no results");
+        // System.out.println("which should equal to b: "+b);
+        // System.out.println("------");
+    // }
 }

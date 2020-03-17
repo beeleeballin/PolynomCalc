@@ -28,7 +28,7 @@ public class Interactive
             Execute e = new Execute(cleanEq, memory);
             e.run();
             
-            System.out.println("Another one?");
+            System.out.println("Another one? (type 'yes' to calculate again, 'no' to exit the program)");
             String another = s.nextLine();
             another = another.toLowerCase();
             
