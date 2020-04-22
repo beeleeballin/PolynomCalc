@@ -4,7 +4,7 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Polynomial Calculator
+PROJECT TITLE: X to the Power of Oooh
 
 My polynomial class is a list of monomials, which are individual objects that hold a coefficient and an exponent value to an operand. The ArrayList framework is chosen for the polynomial object because I intended to use many get() methods in the methods for the polynomial class, and therefore it would be a wise choice when compared to the LinkedList framework. Also, I ensured that I use the add(int idx, E e) with idx = 0 as much as possible, and not the add(E e), so it takes constant time O(1). Not only does the polynomial class rely on the monomial class for the individual objects on the list, but the monomial class is also responsible for the sorting method in the polynomial class based on its Comparable interface. Besides a sorting method, other helper methods such as one that removes monomials that represent 0s, one that verifies whether a polynomial object is empty, and one that duplicates a polynomial object, work alongside or within the principle methods which add, subtract, multiply or divide one polynomial by another.
 
